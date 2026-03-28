@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-rounder",
+    "rating": 9.0,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 13000,
+    "playerImg": "https://i.ibb.co.com/N6Qm3pgF/sakib.webp"
+  },
+  {
+    "id": 2,
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 14000,
+    "playerImg": "https://i.ibb.co.com/cSh55V9m/vavarajam.webp"
+  },
+  {
+    "id": 3,
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.2,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 14000,
+    "playerImg": "https://i.ibb.co.com/9HJRmTLv/rohit.webp"
+  },
+  {
+    "id": 4,
+    "playerName": "Joe Root",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 9.1,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 13500,
+    "playerImg": "https://i.ibb.co.com/3HRWrtn/jone.webp"
+  },
+  {
+    "id": 5,
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 9.3,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 13800,
+    "playerImg": "https://i.ibb.co.com/prZySXqM/joirot.jpg"
+  },
+  {
+    "id": 6,
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-rounder",
+    "rating": 9.4,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 14500,
+    "playerImg": "https://i.ibb.co.com/jPkzRSHB/ben-srike.webp"
+  },
+  {
+    "id": 7,
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.8,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 15000,
+    "playerImg": "https://i.ibb.co.com/1YDrZzGt/virat.avif"
+  },
+  {
+    "id": 8,
+    "playerName": "MS Dhoni",
+    "playerCountry": "India",
+    "playerType": "Wicketkeeper",
+    "rating": 9.6,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 14200,
+    "playerImg": "https://i.ibb.co.com/CpN5Kcgy/MS-Dhoni-6.jpg"
+  },
+  {
+    "id": 9,
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicketkeeper",
+    "rating": 9.4,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 14100,
+    "playerImg": "https://i.ibb.co.com/hR7Jrsbw/jos.webp"
+  },
+  {
+    "id": 10,
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 9.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 14800,
+    "playerImg": "https://i.ibb.co.com/W4tH2prG/jas.webp"
+  },
+  {
+    "id": 11,
+    "playerName": "Shaheen Afridi",
+    "playerCountry": "Pakistan",
+    "playerType": "Bowler",
+    "rating": 9.3,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 13700,
+    "playerImg": "https://i.ibb.co.com/CKMQxzBs/shaheen.jpg"
+  }
+]
