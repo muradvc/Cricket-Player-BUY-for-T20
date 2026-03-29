@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 
-const Card = ({player}) => {
+const Card = ({player,setCoins,coins}) => {
+
+  const [isSlected,setSelected]=useState(false)
+  // coin functionality
+  const handleChosePlayer = () => {
+      
+      let newCoins = coins - player.price;
+      
+      if(newCoins >= 0){
+        setCoins(coins - player.price);
+      }
+      else{
+        alert("You don't have enough coins to select this player.");
+        return;
+      }
+
+     setSelected(true); 
+      }
+
   return (
     <div>
       <div key={player.id} className=''>
@@ -25,7 +43,7 @@ const Card = ({player}) => {
                           </div>
       
                         </div>
-      
+
                         {/* last part */}
                         <div className='flex gap-60'>
                           <h2 className='font-semibold text-[1rem]'>Rating</h2>
@@ -48,7 +66,15 @@ const Card = ({player}) => {
       
                         <div className='flex gap-30 mt-3'>
                           <p className='text-[0.9rem] font-semibold'>Price : ${player.price}</p>
-                          <button className='px-3 py-1 bg-gray-200 whitespace-nowrap rounded-md'>Choose Player</button>
+
+                          <button  className={`px-3 py-1 rounded-md whitespace-nowrap 
+                             ${isSlected ? "text-gray-500 cursor-not-allowed bg-gray-300" : "bg-gray-200"}`}
+                            onClick={handleChosePlayer}
+                            disabled={isSlected? true : false}
+                          >
+                            {isSlected ? "Selected" : "Choose player"}
+                          </button>
+
                         </div>
       
                       </div>

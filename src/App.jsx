@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import AvailablePlayer from './components/homePage/AvailablePlyer/AvailablePlayer'
@@ -11,6 +11,7 @@ const playerFetch = async () => {
 function App() {
 
   const playerPromise = playerFetch();
+  const [coins,setCoins]=useState(50000);
 
   return (
     <>
@@ -21,9 +22,9 @@ function App() {
           <span className="loading loading-spinner text-secondary "></span>
         </div>
       }>
-        <NavBar></NavBar>
+        <NavBar coins={coins}></NavBar>
         <Banner></Banner>
-        <AvailablePlayer playerPromise={playerPromise}></AvailablePlayer>
+        <AvailablePlayer playerPromise={playerPromise} setCoins={setCoins} coins={coins}></AvailablePlayer>
         
       </Suspense>
     </>

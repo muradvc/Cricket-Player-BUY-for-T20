@@ -12,14 +12,14 @@
   },
   {
     "id": 2,
-    "playerName": "Babar Azam",
-    "playerCountry": "Pakistan",
-    "playerType": "Batsman",
-    "rating": 9.5,
-    "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
-    "price": 14000,
-    "playerImg": "https://i.ibb.co.com/cSh55V9m/vavarajam.webp"
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 9.2,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 13800,
+    "playerImg": "https://i.ibb.co.com/vCc4fP7s/mustafizur.jpg"
   },
   {
     "id": 3,
@@ -34,14 +34,14 @@
   },
   {
     "id": 4,
-    "playerName": "Joe Root",
-    "playerCountry": "England",
-    "playerType": "Batsman",
-    "rating": 9.1,
+    "playerName": "Mahmudullah Riyad",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-rounder",
+    "rating": 8.9,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 13500,
-    "playerImg": "https://i.ibb.co.com/3HRWrtn/jone.webp"
+    "price": 13200,
+    "playerImg": "https://i.ibb.co.com/JR7FYnPw/Mahudullah.jpg"
   },
   {
     "id": 5,
@@ -119,5 +119,49 @@
     "bowlingStyle": "Left-arm fast",
     "price": 13700,
     "playerImg": "https://i.ibb.co.com/CKMQxzBs/shaheen.jpg"
+  },
+  {
+    "id": 12,
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 9.0,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 13500,
+    "playerImg": "https://i.ibb.co.com/SXF7bnY9/tamim.webp"
+  },
+  {
+    "id": 13,
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicketkeeper",
+    "rating": 9.1,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 13600,
+    "playerImg": "https://i.ibb.co.com/MyGMRs1s/mushfiq.avif"
+  },
+  {
+    "id": 14,
+    "playerName": "Joe Root",
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 9.1,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 13500,
+    "playerImg": "https://i.ibb.co.com/3HRWrtn/jone.webp"
+  },
+  {
+    "id": 15,
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 14000,
+    "playerImg": "https://i.ibb.co.com/cSh55V9m/vavarajam.webp"
   }
 ]
